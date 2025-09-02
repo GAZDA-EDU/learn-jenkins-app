@@ -106,7 +106,7 @@ pipeline {
                 }
             }
             environment {
-                CI_ENVIRONMENT_URL = ''
+                CI_ENVIRONMENT_URL = 'https://cool-paletas-cb3413.netlify.app'
             }
             steps {
                 sh '''
